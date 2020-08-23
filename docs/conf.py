@@ -29,8 +29,7 @@ author = 'JFrog Community'
 # ones.
 
 extensions = [
-    'sphinx.ext.todo',
-    'sphinx.ext.githubpages',
+
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,6 +55,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+
 html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
@@ -67,7 +67,3 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-#---sphinx-themes-----
-html_theme = 'rtcat_sphinx_theme'
-import rtcat_sphinx_theme
-html_theme_path = [rtcat_sphinx_theme.get_html_theme_path()]
